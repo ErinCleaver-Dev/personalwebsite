@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+nav {
+    height: 50px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-image: url("../images/sun-pattern.png");
+}
+
+#default_link {
+    background: orange;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px;
+}
+
+#default_link:hover {
+    background-color: #131313;
+}
+
+
+.links:hover {
+    background-color: #131313;
+}
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 540px;
+}
+
+.titles {
+    text-align: center;
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+}
+
+.section {
+    padding: 10px;
+}
+
+.section p {
+    padding: 20px;
+}
